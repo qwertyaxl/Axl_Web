@@ -1,3 +1,4 @@
+// model is made by KyokiStudio
 (async function () {
     const container = document.getElementById('live2d-container');
     const toggleButton = document.getElementById('toggle-follow');
@@ -11,7 +12,7 @@
         backgroundAlpha: 0,
     });
 
-    const modelUrl = './Furina/Furina/Furina.model3.json';
+    const modelUrl = './Furina/Furina.model3.json';
     const model = await PIXI.live2d.Live2DModel.from(modelUrl, { autoInteract: false });
     app.stage.addChild(model);
 

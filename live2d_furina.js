@@ -59,7 +59,7 @@
 
     toggleButton.addEventListener('click', () => {
         notFollowingMouse = !notFollowingMouse;
-        toggleButton.textContent = notFollowingMouse ? 'Aktifkan Ikuti Kursor' : 'Matikan Ikuti Kursor';
+        toggleButton.textContent = notFollowingMouse ? 'Turn On Following Cursor' : 'Turn Off Following Cursor';
         if (notFollowingMouse) resetGaze();
     });
 
